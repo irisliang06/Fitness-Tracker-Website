@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  font-size: larger;
+  font-weight: 
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 700px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: rgb(102, 223, 213);
+}
